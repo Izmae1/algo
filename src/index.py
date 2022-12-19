@@ -9,7 +9,6 @@ def mainPg():
 @app.route('/about')
 def aboutPg():
     return render_template('about.html')
-
 @app.route('/contact')
 def contactPg():
     return render_template('contact.html')
